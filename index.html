@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Header Section -->
+    <title>Bootstrap Task2 </title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tamizh Shop</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="task1.html">Bootstrap-TASK1</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2 fw-bold"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+        <!--  Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #1c1c1c"
+            >
+              <div class="text-center text-white">
+                <h2 class="text-danger">Tamizh SmartMob World</h2>
+                <h5>100% genuine products with manufacturer warranty</h5>
+                <button class="btn btn-primary mt-3">Contact us</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #2a2a2a"
+            >
+              <div class="text-center text-white">
+                <h2>Brand new smartphones at competitive prices
+
+</h2>
+                <h5>100% genuine products with manufacturer warranty
+
+</h5>
+ <button class="btn btn-primary mt-3">Contact us</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #333"
+            >
+              <div class="text-center text-white">
+                <h2>Quick repair and servicing support</h2>
+                <h5>Fast doorstep delivery and easy returns</h5>
+                <button class="btn btn-primary mt-3">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- card 1 -->
+
+      <div class="body d-flex flex-column justify-content-center m-5">
+        <div class="card-container d-flex justify-content-center m-5">
+          <div class="card me-5" style="width: 50vh">
+           <div
+  class="card-img-top d-flex justify-content-center align-items-center"
+  style="width: 50vh; height: 40vh; background-image: url(https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_UY218_.jpg); background-repeat: no-repeat; background-size: contain; background-position: center"
+>
+  <h2 class="text-white text-center mt-5">i phone 13</h2>
+</div>
+            <div class="card-body">
+              <p>
+               The iPhone 13 features a 6.1-inch Super Retina XDR display and is powered by the A15 Bionic chip. With a dual-camera system, it offers impressive photography and video capabilities. It supports 5G connectivity, enhanced battery life, and comes in multiple storage options, making it a powerful and sleek device.
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <!-- <button class="btn btn-outline-dark" onclick="showmodel()">View</button> -->
+                <button class="btn btn-outline-dark" onclick="showmodel('i phone 13')">View</button>
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+
+          <div class="card me-5" style="width: 50vh">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center"
+              style="width: 50vh; height: 40vh; background-image: url(https://m.media-amazon.com/images/I/61xJlx-3KDL._AC_UY218_.jpg ); background-repeat: no-repeat; background-size: contain; background-position: center"
+            >
+              <h2 class="text-white text-center mt-5">i phone 14</h2>
+            </div>
+            <div class="card-body">
+              <p>
+               The iPhone 14 comes with a 6.1-inch OLED display, powered by the A15 Bionic chip, offering excellent performance. It has advanced safety features like crash detection and emergency SOS via satellite. The dual-camera system with enhanced low-light capabilities, coupled with 5G support, makes it a top-tier smartphone for daily use.
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <!-- <button class="btn btn-outline-dark viewbutton" onclick="showmodel()">
+                    View
+                  </button> -->
+                  <button class="btn btn-outline-dark" onclick="showmodel('i phone 14')">View</button>
+                  
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+
+          <div class="card me-5" style="width: 50vh">
+            <div
+  class="card-img-top d-flex justify-content-center align-items-center"
+  style="width: 50vh; height: 40vh; background-image: url(https://m.media-amazon.com/images/I/71657TiFeHL._AC_UY218_.jpg); background-repeat: no-repeat; background-size: contain; background-position: center"
+>
+  <h2 class="text-white text-center mt-5">i phone 15</h2>
+</div>
+            <div class="card-body">
+              <p>
+               The iPhone 15 boasts a 6.1-inch Super Retina XDR display and is driven by the A16 Bionic chip. It features a USB-C port for faster charging and data transfer. The enhanced camera system includes a 48MP main sensor, delivering stunning photos and videos, while its 5G capabilities ensure blazing-fast speeds.
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <!-- <button class="btn btn-outline-dark" id="viewbutton" onclick="showmodel()">
+                    View
+                  </button> -->
+                  <button class="btn btn-outline-dark" onclick="showmodel('i phone 15')">View</button>
+                  
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+          <!-- end  -->
+        </div>
+
+        <div
+          class="accordion ms-5 justify-content-center"
+          style="width: 160vh"
+          id="accordionExample"
+        >
+          <!-- first accordian -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                iphone 13
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>iphone 13</strong> I
+The iPhone 13 is designed for users seeking a blend of power and reliability. It comes equipped with a 6.1-inch Super Retina XDR display, ensuring vibrant colors and true blacks. Powered by the A15 Bionic chip, it delivers exceptional performance, even for demanding tasks. Its dual-camera system supports advanced features like Night Mode and Cinematic Mode for high-quality photography and videos. With 5G support, it offers fast connectivity. The battery life is improved, lasting up to 2.5 hours longer than its predecessor.
+              </div>
+            </div>
+          </div>
+          <!-- second accordian -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                iphone 14
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>iphone 14</strong> The iPhone 14 builds on its predecessor with even more advanced features. Featuring a 6.1-inch OLED display, it ensures excellent color accuracy and clarity. Powered by the A15 Bionic chip, the phone handles multitasking with ease. It introduces innovative safety features, including crash detection and satellite emergency SOS. The dual-camera system is enhanced for better low-light performance and includes features like Photonic Engine for stunning images. With 5G capabilities, users can enjoy faster download and streaming speeds, making it perfect for media-heavy tasks.
+              </div>
+            </div>
+          </div>
+          <!-- third accordian -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                iphone 15
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>iphone 15</strong> The iPhone 15 offers a range of enhancements, including a 6.1-inch Super Retina XDR display with ProMotion technology for smoother scrolling. The A16 Bionic chip powers seamless performance across apps and games. It introduces a 48MP primary camera for superior photo quality, coupled with advanced image processing for improved low-light shots. USB-C charging replaces Lightning, providing faster charging and data transfer. The iPhone 15 also supports 5G, ensuring fast and reliable internet, making it ideal for streaming, gaming, and professional work.
+
+         </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Bottom Footer -->
+<div id="footer" class="d-flex justify-content-between mt-5 mx-5 pe-5">
+  <div>
+    <p>
+      © Tamizh Shop <br>
+      <strong class="text-primary"> Phone: 9876543210</strong><span></span><br>
+      <strong class="text-primary"> email: tamshop@gmail.com </strong>
+    </p>
+  </div>
+  <div>
+    <a href="#" class="text-decoration-none text-primary fw-bold">Back to Top</a>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title" id="productModalLabel">Product View</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modalContent">
+        <!-- Product content will go here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+      <script src="./js/script.js"></script>
+    </div>
+  </body>
+</html>
