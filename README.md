@@ -1,3 +1,3 @@
 # BootsrapTask2
 BootsrapTask2
-deploy link : https://jocular-tapioca-b59dba.netlify.app/
+deploy link : https://starlit-mandazi-7fbb59.netlify.app/
